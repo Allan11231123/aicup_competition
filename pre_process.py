@@ -84,7 +84,10 @@ def main():
     parser.add_argument('--output_path','-o',type=str,required=False,default="./train.tsv")
 
     args = parser.parse_args()
-    annos_file_path = args.annotation 
+    annos_file_path = args.annotation
     medical_report_folder = args.report_folder
     tsv_output_path = args.output_path
     generate_annotated_medical_report(annos_file_path,medical_report_folder,tsv_output_path)
+
+if __name__ == "__main__":
+    main()

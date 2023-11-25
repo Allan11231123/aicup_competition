@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aicup-competition"
+version = "0.1.0"
+description = ""
+authors = ["Allan11231123 <allan098792@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+transformers = "^4.35.2"
+datasets = "^2.15.0"
+islab-opendeid = "^0.0.1.1"
+numpy = "^1.19.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
